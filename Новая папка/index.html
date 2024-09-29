@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблица с добавлением данных</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Добавление данных в таблицу</h1>
+        <form id="dataForm">
+            <input type="text" id="inputField" placeholder="Введите данные" required>
+            <button type="submit">Добавить</button>
+        </form>
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>Столбец 1</th>
+                    <th>Столбец 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+        <h2>Сохраненные данные</h2>
+        <ul id="savedDataList"></ul>
+        <button id="addSelectedButton">Добавить выбранные данные в таблицу</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
